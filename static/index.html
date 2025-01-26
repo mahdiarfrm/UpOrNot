@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UpOrNot - Service Status Monitor</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>UpOrNot</h1>
+        <p class="subtitle">Real-time Server Status Monitor</p>
+    </div>
+    <div id="loading" class="loading">Loading server status...</div>
+    <div id="error" class="error" style="display: none;">Connection lost. Attempting to reconnect...</div>
+    <div class="server-list" id="serverList"></div>
+    <footer class="footer">
+        <p>UpOrNot &copy; 2024 - Simple Uptime Monitoring Made With Love <3 </p>
+    </footer>
+    <script src="/static/app-polling.js"></script>
+</body>
+</html>

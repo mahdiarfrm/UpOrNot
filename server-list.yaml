@@ -1,0 +1,6 @@
+servers:
+    - name: example-ip
+      host: 8.8.8.8
+
+    - name: example-host
+      host: google.com
