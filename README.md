@@ -1,4 +1,3 @@
-
 # UpOrNot 🌐  
 **Monitor and analyze server uptime and health in real-time.**  
 
@@ -128,5 +127,9 @@ Example:
 This project is licensed under the [MIT License](LICENSE).  
 
 Feel free to clone, modify, and use it in your projects!
+
+---
+## Screenshot 📸
+<img width="1102" alt="upornot" src="https://github.com/user-attachments/assets/613a876d-85d7-46c6-ac9c-d6b648d19510" />
 
 ---
