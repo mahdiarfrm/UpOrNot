@@ -36,7 +36,7 @@ function connectWebSocket() {
         console.log('WebSocket connection established');
         loadingElement.style.display = 'none';
         serverList.style.display = 'block';
-        reconnectAttempts = 0; // Reset reconnect attempts on successful connection
+        reconnectAttempts = 0;
     };
 
     ws.onmessage = function(event) {
